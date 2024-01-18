@@ -1,0 +1,31 @@
+body{
+	background-image: url("imagenes/fondo.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+}
+header{
+	background-image: url("imagenes/header.png");
+	background-color: rgba(255, 255, 255, 0.8);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+section{
+	padding: 10 px;
+	width: 200 px;
+}
+article{
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 5px solid white;
+	border-collapse: collapse;
+	font-size: 110%;
+	width: 700 px;
+}
+footer{
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 3px solid white;
+	border-collapse: collapse;
+	position: fixed;
+	bottom: 0;
+}
